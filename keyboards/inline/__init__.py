@@ -1,0 +1,2 @@
+from .inline_kb_admin_menu import ikb_menu_apply
+from .inline_kb_worker_menu import ikb_menu2
