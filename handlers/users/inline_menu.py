@@ -13,6 +13,7 @@ async def show_inline_menu(message: types.Message):
     await message.answer('Инлайн кнопки ниже', reply_markup=ikb_menu_apply)
 
 
+
 @dp.callback_query_handler(text="сообщение")
 async def send_message(call: CallbackQuery):
     await call.message.answer('Лидформа подтверждена')
