@@ -188,7 +188,7 @@ async def decline_w_reg(call: types.CallbackQuery):
 
 @dp.message_handler(text="Мой Лид Хаб")
 async def lead_hub(message: types.Message):
-    await message.answer("Поглядим что у нас здесь...", reply_markup=kb_admin_hub)
+    await message.answer("Поглядим есть что у нас здесь...", reply_markup=kb_admin_hub)
 
 
 # @dp.message_handler(text="Подтвердить новые заявки")
